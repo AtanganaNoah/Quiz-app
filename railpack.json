@@ -1,3 +1,4 @@
 {
-  "phpVersion": "8.3"
+  "phpVersion": "8.3",
+  "extensions": ["pdo_mysql"]
 }
