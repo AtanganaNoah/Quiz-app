@@ -6,7 +6,7 @@ use App\Models\Quiz;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Validator;
 
-class StoreAttemptRequest extends FormRequest
+class StoreAttempRequest extends FormRequest
 {
     public function authorize(): bool
     {

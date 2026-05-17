@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
  * Utile si tu veux accéder directement à la table pivot
  * ou y attacher de la logique métier.
  */
-class QuizQuestion extends Pivot
+class QuizzQuestions extends Pivot
 {
     protected $table = 'quiz_questions';
 

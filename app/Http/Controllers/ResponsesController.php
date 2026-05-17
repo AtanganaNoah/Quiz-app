@@ -7,7 +7,7 @@ use App\Models\Response as QuizResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 
-class ResponseController extends Controller
+class ResponsesController extends Controller
 {
     /**
      * Enregistre ou met à jour la réponse d'un étudiant
